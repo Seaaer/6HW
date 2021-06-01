@@ -9,8 +9,9 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
-        </div>
+        
+            <asp:TextBox ID="tb_Name" runat="server" ></asp:TextBox><br />
+            <asp:Button ID="btn_Del" runat="server" Text="刪除" OnClick="btn_Del_Click" />
     </form>
 </body>
 </html>
